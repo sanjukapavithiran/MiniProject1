@@ -1,1 +1,1 @@
-# MiniProject1
+This repository stores all the Mini Project work on a clothing website named Black Forest
