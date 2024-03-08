@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Function to display alert using native alert function
+    // Function to display alert 
     function showAlert(productName) {
         alert(`${productName} has been added to your cart.`);
     }

@@ -56,14 +56,6 @@ button:hover {
     padding: 10px 0;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .center-heading {
     flex: 1; 
     text-align: center; 
@@ -71,30 +63,6 @@ button:hover {
 
 .center-heading h1 {
     margin: 0;
-}
-
-.right-links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.right-links ul li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.right-links ul li:first-child {
-    margin-left: 0;
-}
-
-.right-links ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.right-links ul li a:hover {
-    color: #ccc;
 }
 
 footer {
@@ -105,5 +73,27 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.container-categsearch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px; 
+}
+
+.search-container select,
+.search-container input[type="text"] {
+    margin: 0 10px; 
 }
 
