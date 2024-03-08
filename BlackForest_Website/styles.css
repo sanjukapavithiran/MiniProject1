@@ -14,22 +14,34 @@ header {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
  }
   
-.product-card {
-    width: 300px;
+ .product-card {
+    width: calc(33.33% - 20px); 
+    height: 450px;
     margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
-  
+
 .product-card img {
-    width: 50%;
-    height: auto;
+    max-width: 150px; 
+    max-height: 150px;
+    margin: 0 auto;
+}
+
+.card {
+    border: none; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    height: 100%; 
 }
 
 button {
@@ -45,4 +57,51 @@ button {
 button:hover {
     background-color: #45a049;
  }
-  
+
+.top-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.center-heading {
+    flex: 1; 
+    text-align: center; 
+}
+
+.center-heading h1 {
+    margin: 0;
+}
+
+.right-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.right-links ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.right-links ul li:first-child {
+    margin-left: 0;
+}
+
+.right-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.right-links ul li a:hover {
+    color: #ccc;
+}
+
