@@ -21,20 +21,19 @@ header {
  }
   
  .product-card {
-    width: calc(33.33% - 20px); 
+    flex-basis: 32%;
     height: 450px;
     margin-bottom: 20px;
     text-align: center;
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: center;
 }
 
 .product-card img {
     max-width: 150px; 
     max-height: 150px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .card {
