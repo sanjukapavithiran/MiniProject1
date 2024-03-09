@@ -15,7 +15,7 @@ body {
 
  .product-card {
     min-width: 300px;
-    height: 450px;
+    height: 400px;
     margin-bottom: 20px;
     text-align: center;
     display: flex; 
@@ -42,9 +42,12 @@ body {
 }
 
 .top-nav {
-    background-color: #333;
-    color: #fff;
+    background-image: url('image.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
     padding: 10px 0;
+    height: auto;
 }
 
 .center-heading {
@@ -58,11 +61,11 @@ body {
 }
 
 footer {
-    background-color: #333;
+    background-color: #333; 
     color: #fff;
-    text-align: center;
+    text-align:center;
     padding: 10px 0;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
 }
@@ -88,4 +91,3 @@ footer {
 .search-container input[type="text"] {
     margin: 0 10px; 
 }
-
