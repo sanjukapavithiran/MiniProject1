@@ -21,6 +21,11 @@ body {
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Increase scale on hover */
 }
 
 .product-card img {
